@@ -24,7 +24,7 @@ class TyperacerBot:
             else:
                 break    
         #inits driver    
-        self.driver = webdriver.Chrome('/Users/amitrajpal/Downloads/Instagram_bot/chromedriver')    
+        self.driver = webdriver.Chrome('INPUT THE PATH OF YOUR CHROMEDRIVER HERE')    
         #accesses webite
         self.access_website()
         #gets the needed text array and stores it        
